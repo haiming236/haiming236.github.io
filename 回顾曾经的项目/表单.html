@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>信息收集表</title>
+	</head>
+	<style>
+		.temp{
+			margin-left: 4px;
+		}
+	</style>
+	<body>
+
+		<form action="表单1.html">
+			<label for="xinming">
+				姓名：<input class="temp" type="text" placeholder="请输入姓名" id="xinming" name="cname"><br>
+			</label>
+			<label for="shouji">
+				手机：<input class="temp" type="tel" name="mphone" id="shouji" placeholder="请输入手机号码"><br>
+			</label>
+			<label for="csnyr">
+				出生年月日:<input type="date" name="birthday" id="csnyr"><br>
+			</label>
+			<label for="youxiang">
+				邮箱：<input class="temp" type="email" name="email" id="youxiang" placeholder="请输入电子邮箱"><br>
+			</label>
+			<label for="nan">
+				性别：<input type="radio" name="gender" checked="checked" id="nan">男
+			</label>
+			<label for="nv">
+				<input type="radio" name="gender" id="nv">女<br>
+			</label>
+			<label for="hunyan">
+				婚宴状态：<select name="hstate" id="hunyan">
+					<option value="未婚" selected>未婚</option>
+					<option value="已婚">已婚</option>
+					<option value="丧偶">丧偶</option>
+					<option value="离婚">离婚</option>
+			</label>
+			</select><br>
+			<label for="kanshu">
+				爱好：<input type="checkbox" name="kanshu" id="kanshu">看书 </label>
+			<label for="daqiu"> <input type="checkbox" name="daqiu" id="daqiu">打球</label>
+			<label for="paobu"> <input type="checkbox" name="paobu" id="paobu">跑步</label>
+			<label for="youxi"><input type="checkbox" name="youxi" id="youxi" checked>游戏</label>
+			<label for="kandianying"><input type="checkbox" name="kandianying" id="kandianying">看电影</label>
+			<br>
+			<input type="submit" value="提交">
+			<input type="reset" value="重置">
+		</form>
+
+	</body>
+
+</html>
