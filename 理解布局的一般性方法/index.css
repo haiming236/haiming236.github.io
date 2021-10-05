@@ -1,0 +1,93 @@
+.p1 {
+	width: 500px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.p1 div:nth-child(1) {
+	height: 15%;
+	margin-bottom: 5px;
+	background-color: skyblue;
+}
+
+.p1 div:nth-child(2) {
+	flex: 1;
+	margin-bottom: 5px;
+	background-color: pink;
+
+}
+
+.p1 div:nth-child(3) {
+	height: 15%;
+	background-color: skyblue;
+}
+
+.p2 {
+	width: 500px;
+	height: 300px;
+	display: flex;
+}
+
+.p2 div:nth-child(1) {
+	width: 20%;
+	margin-right: 5px;
+	background-color: skyblue;
+}
+
+.p2 div:nth-child(2) {
+	flex: 1;
+	background-color: pink;
+}
+
+
+
+.container {
+	width: 500px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 2fr 6fr 2fr;
+	gap: 5px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"g1 g1 g1"
+		"gp1 gp2 gp3"
+		"g2 g2 g2";
+}
+
+.g1 {
+	background-color: skyblue;
+	grid-area: g1;
+}
+
+.g2 {
+	background-color: skyblue;
+	grid-area: g2;
+}
+
+.gp1{
+	background-color: pink;
+	grid-area: gp1;
+}
+.gp2{
+	background-color: pink;
+	grid-area: gp2;
+}
+.gp3{
+	background-color: pink;
+	grid-area: gp3;
+}
+.container1 {
+	width: 500px;
+	height: 300px;
+	display: grid;
+	grid-template-columns: 2fr 6fr 2fr;
+	grid-template-rows: 2fr 7fr 1fr;
+	gap: 5px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"g1 g1 g1"
+		"gp1 gp2 gp3"
+		"g2 g2 g2";
+}
