@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<script src="js/swiper.min.js"></script>
+
+		<title>Document</title>
+	</head>
+	<style>
+		@font-face {
+			font-family: 'icomoon';
+			src: url('fonts/fonts/icomoon.eot?ehjytq');
+			src: url('fonts/fonts/icomoon.eot?ehjytq#iefix') format('embedded-opentype'),
+				url('fonts/fonts/icomoon.ttf?ehjytq') format('truetype'),
+				url('fonts/fonts/icomoon.woff?ehjytq') format('woff'),
+				url('fonts/fonts/icomoon.svg?ehjytq#icomoon') format('svg');
+			font-weight: normal;
+			font-style: normal;
+			font-display: block;
+		}
+	</style>
+	<body>
+		<header class="m-header clearfix">
+			<div class="max-width-content m-header-main">
+				<a class="m-header-logo" href="">
+					<img src="images/midea-logo-cn.png">
+				</a>
+				<div class="J-menu-panel m-header-menu">
+					<div>
+						<ul class="m-header-menu-list" style="width: 100%;">
+							<i class=" iconfont micon-close u-close-icon"></i>
+							<li class="menu-item">
+								<div class="menu-item-first">
+									<a class=".menu-link">美的业务</a>
+								</div>
+								<ul class="submenu-ul J-submenu" data-height="472">
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses" class="submenu-link pointer"
+											title="">总览</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Smart-Home-Business-Unit-"
+											class="submenu-link pointer" title="">智能家居事业群</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Electromechanical-Business-Unit"
+											class="submenu-link pointer" title="">机电事业群</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/HVAC-Building-Technologies-Division"
+											class="submenu-link pointer" title="">暖通与楼宇事业部</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Robotics-and-Automation"
+											class="submenu-link pointer" title="">机器人与自动化事业部</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Digital-Innovation"
+											class="submenu-link pointer" title="">数字化创新业务</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a class=".menu-link">投资者关系</a>
+								</div>
+								<ul class="submenu-ul J-submenu" data-height="472">
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses" class="submenu-link pointer"
+											title="">总览</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Smart-Home-Business-Unit-"
+											class="submenu-link pointer" title="">智能家居事业群</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Electromechanical-Business-Unit"
+											class="submenu-link pointer" title="">机电事业群</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/HVAC-Building-Technologies-Division"
+											class="submenu-link pointer" title="">暖通与楼宇事业部</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Robotics-and-Automation"
+											class="submenu-link pointer" title="">机器人与自动化事业部</a>
+									</li>
+									<li class="submenu-item">
+										<a target="_self" href="/cn/Our-Businesses/Digital-Innovation"
+											class="submenu-link pointer" title="">数字化创新业务</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a>美的商城</a>
+								</div>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a class=".menu-link">美的美居</a>
+								</div>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a>美的服务</a>
+								</div>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a>加入美的</a>
+								</div>
+							</li>
+							<li class="menu-item">
+								<div>
+									<a>美的供应商</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="m-header-search J-search-icon">
+					<div class="iconfont-box">
+						<i class="iconfont micon-search J-search-pc"></i>
+					</div>
+				</div>
+				<div class="country-select-btn-pc J-menu-item active">
+					<img src="https://source.midea.com/mideaCo/china.png">
+				</div>
+			</div>
+		</header>
+		<!-- Swiper -->
+		<div class="swiper-container h-banner">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<video style="background-color: #000;" id="video" width="100%" src="mp4/m1.mp4" autoplay="autoplay"
+						loop="loop" playsinline="" muted="">Your Browser do not support video</video>
+				</div>
+				<div class="swiper-slide .h-banner-item">
+					<img class="banner-img" src="mp4/m2.jpg">
+					<img class="bar" src="mp4/mg2.gif" style="left:4.167%;top:10%;">
+				</div>
+				<div class="swiper-slide .h-banner-item">
+					<img class="banner-img" src="mp4/m3.jpg">
+					<img class="bar" src="mp4/mg3.gif" style="left:4.167%;top:10%;">
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: {
+					el: '.swiper-pagination',
+				},
+			});
+		</script>
+		<!-- Data icon -->
+		<div class="m-data-icon max-width-content ">
+			<h2 class="u-title">快览</h2>
+			<div class="m-data-icon-container">
+				<ul class="m-data-icon-wrapper">
+					<li class="m-data-icon-item">
+						<div class="m-data-icon-main">
+							<span>2857</span><i class="m-data-icon-main-up">亿元</i>
+							<div class="m-data-icon-sub">2020年营业总收入</div>
+						</div>
+
+					</li>
+					<li class="m-data-icon-item">
+						<div class="m-data-icon-main">
+							<span>15</span><i class="m-data-icon-main-up">万+</i>
+							<div class="m-data-icon-sub">全球员工数量</div>
+						</div>
+
+					</li>
+					<li class="m-data-icon-item">
+						<div class="m-data-icon-main">
+							<span>288</span><i class="m-data-icon-main-up">位</i>
+							<div class="m-data-icon-sub">《财富》世界500强排位</div>
+						</div>
+
+					</li>
+				</ul>
+				<div class="u-arrow-solid left J-arrow-left">
+				</div>
+				<div class="u-arrow-solid right J-arrow-right">
+				</div>
+			</div>
+		</div>
+		<div class="m-stock-price max-width-content">
+			<h2 class="u-title">股价</h2>
+			<a target="_self" href="/cn/Investors" class="title-link pointer" title="">了解更多 +</a>
+
+			<iframe id="stock-price" class="J-stock-iframe"
+				src=" https://asia.tools.euroland.com/tools/ticker/html/?companycode=cn-000333&amp;lang=zh-cn"
+				width="100%" frameborder="no" title="股价" border="0" marginwidth="0" marginheight="0" scrolling="no"
+				allowtransparency="yes"
+				style="background: transparent; min-width: 100%; width: 1px; max-height: none; min-height: 0px; height: 588px;"
+				height="588"></iframe>
+		</div>
+		<div class="m-business max-width-content">
+			<h2 class="u-title">
+				业务
+			</h2>
+			<div class="bus-box J-bus-box">
+				<ul class="m-business-items J-business-items">
+					<li class="business-item">
+						<div class="img-box">
+							<img src="images/1.jpg" class="bus-img swiper-lazy lazyload m-preload-bg swiper-lazy-loaded"
+								alt="">
+						</div>
+						<a class="txt-box bus-link pointer" title="">
+							<div class="txt-box-main">
+								<div class="bus-name">智能家居事业群</div>
+								<div class="bus-desc">
+									智能家居事业群，作为智慧家电、智慧家居及周边相关产业和生态链的经营主体，承担面向C端用户的智能化场景搭建，用户运营和数据价值发掘，致力于成为为C端用户提供最佳体验的全屋智能家居及服务的高科技公司。
+								</div>
+								<span class="bus-link-name">了解更多 +</span>
+								<!--<span class="u-arrow-solid little-arrow"></span>-->
+							</div>
+						</a>
+					</li>
+					<li class="business-item">
+						<div class="img-box">
+							<img src="images/2.png" class="bus-img swiper-lazy lazyload m-preload-bg swiper-lazy-loaded"
+								alt="">
+						</div>
+						<a class=" txt-box bus-link pointer" title="">
+							<div class="txt-box-main">
+								<div class="bus-name">机电事业群</div>
+								<div class="bus-desc">机电事业群，专业化研发、生产、销售压缩机、电机、芯片、工控、散热组件等高精密核心部件产品，拥有GMCC
+									美芝、Welling威灵、MR美仁、TOSHIBA东芝、HICONICS合康、SUNYE日业、DORNA东菱和SERVOTRONIX高创等多个品牌，产品广泛应用于家用电器、3C产品、新能源汽车和工业自动化等领域。
+								</div>
+								<span class="bus-link-name">了解更多 +</span>
+								<!--<span class="u-arrow-solid little-arrow"></span>-->
+							</div>
+						</a>
+					</li>
+					<li class="business-item">
+						<div class="img-box">
+							<img src="images/3.png" class="bus-img swiper-lazy lazyload m-preload-bg swiper-lazy-loaded"
+								alt="">
+						</div>
+						<a class="txt-box bus-link pointer" title="">
+							<div class="txt-box-main">
+								<div class="bus-name">暖通与楼宇事业部</div>
+								<div class="bus-desc">
+									暖通与楼宇事业部，作为着力于成为掌握关键核心科技及制造能力的领先型工业企业，致力于为楼宇及公共设施提供能源、暖通、电梯、控制等产品及全套解决方案和服务提供商，并积极探索新的商业模式和类型。
+								</div>
+								<span class="bus-link-name">了解更多 +</span>
+								<!--<span class="u-arrow-solid little-arrow"></span>-->
+							</div>
+						</a>
+
+					</li>
+					<li class="business-item">
+						<div class="img-box">
+							<img src="images/4.jpg" class="bus-img swiper-lazy lazyload m-preload-bg swiper-lazy-loaded"
+								alt="">
+						</div>
+						<a class="txt-box bus-link pointer" title="">
+
+							<div class="txt-box-main">
+								<div class="bus-name">机器人与自动化事业部</div>
+								<div class="bus-desc">机器人及自动化事业部，主要围绕未来工厂相关领域，包括工业机器人、物流自动化系统及传输系统解决方案，医疗、娱乐、新消费领域解决方案等。
+								</div>
+								<span class="bus-link-name">了解更多 +</span>
+								<!--<span class="u-arrow-solid little-arrow"></span>-->
+							</div>
+						</a>
+
+					</li>
+					<li class="business-item">
+						<div class="img-box">
+							<img src="images/5.jpg" class="bus-img swiper-lazy lazyload m-preload-bg swiper-lazy-loaded"
+								alt="">
+						</div>
+						<a class="txt-box bus-link pointer" title="">
+							<div class="txt-box-main">
+								<div class="bus-name">数字化创新业务</div>
+								<div class="bus-desc">数字化创新业务是美的集团在商业模式变革中孵化的新型业务，包括为企业数字化转型提供软件服务、无人零售解决方案和生产性服务等。
+								</div>
+								<span class="bus-link-name">了解更多 +</span>
+								<!--<span class="u-arrow-solid little-arrow"></span>-->
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<div class="m-footer">
+				<div class="m-footer-box max-width-content">
+					<ul class="m-footer-icons">
+						<li>
+							<a target="_self" href="/cn/Contact-us" class="icons-link pointer" title="">
+								<span>联系我们</span>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://weibo.com/midea" class="icons-link pointer" title="">
+								<span>微博</span>
+								<img class="m-footer-icon" src="images/icon-weibo2.png" alt="">
+							</a>
+						</li>
+					</ul>
+
+					<ul class="m-footer-links" style="">
+						<li class="link-box">
+							<div class="title"><a target="_self" href="/cn/About-Us" class=" pointer" title="">关于美的</a>
+							</div>
+							<ul class="link-item">
+								<li>
+									<a target="_self" href="/cn/About-Us/Innovation" class=" pointer" title="">创新</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/About-Us/manufacturing" class=" pointer" title="">制造</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/About-Us/news" class=" pointer" title="">新闻中心</a>
+								</li>
+							</ul>
+						</li>
+						<li class="link-box">
+							<div class="title"><a target="_self" href="/cn/Our-Businesses" class=" pointer"
+									title="">美的业务</a>
+							</div>
+							<ul class="link-item">
+								<li>
+									<a target="_self" href="/cn/Our-Businesses/Smart-Home-Business-Unit-"
+										class=" pointer" title="">智能家居事业群</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Our-Businesses/Electromechanical-Business-Unit"
+										class=" pointer" title="">机电事业群</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Our-Businesses/HVAC-Building-Technologies-Division"
+										class=" pointer" title="">暖通与楼宇事业部</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Our-Businesses/Robotics-and-Automation" class=" pointer"
+										title="">机器人与自动化事业部</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Our-Businesses/Digital-Innovation" class=" pointer"
+										title="">数字化创新业务</a>
+								</li>
+							</ul>
+						</li>
+						<li class="link-box">
+							<div class="title"><a target="_self" href="/cn/Investors" class=" pointer"
+									title="">投资者关系</a>
+							</div>
+							<ul class="link-item">
+								<li>
+									<a target="_self" href="/cn/Investors/letter-to-stakeholders" class=" pointer"
+										title="">致股东的信</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Investors/stock-info" class=" pointer" title="">股票信息</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Investors/reports" class=" pointer" title="">财务报告</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Investors/Governance" class=" pointer" title="">公司治理</a>
+								</li>
+							</ul>
+						</li>
+						<li class="link-box">
+							<div class="title"><a target="_self" href="/cn/Careers" class=" pointer" title="">加入美的</a>
+							</div>
+							<ul class="link-item">
+								<li>
+									<a target="_self" href="/cn/Careers/work-at-midea-group" class=" pointer"
+										title="">工作在美的</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Careers/our-culture" class=" pointer" title="">美的文化</a>
+								</li>
+								<li>
+									<a target="_self" href="/cn/Careers/career-paths" class=" pointer" title="">职业发展</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://recruit.midea.com/recruitOut/ihr/home/index"
+										class=" pointer" title="">社会招聘</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://careers.midea.com/schoolOut/home" class=" pointer"
+										title="">应届毕业生招聘</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://recruit.midea.com/recruitOut/ihr/doctor/doctorHome"
+										class=" pointer" title="">博士生招聘</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="m-copyright">
+				<div class="max-width-content m-copyright-box">
+					<div class="m-copyright-box-left">
+						<div class="m-copyright-txt">
+							<p>©2021美的集团股份有限公司版权所有</p>
+						</div>
+						<div class="m-record-txt">
+							<p><a href="http://beian.miit.gov.cn">粤ICP备09215446号</a>&nbsp; &nbsp;粤公网安备 44060602000243号
+							</p>
+						</div>
+					</div>
+					<ul class="m-copyright-link">
+						<li> <a target="_self" href="/cn/Personal-data-security-protection"
+								class="m-copyright-item pointer" title="">隐私协议</a>
+						</li>
+						<li> <a target="_self" href="/cn/Code-of-business-conduct" class="m-copyright-item pointer"
+								title="">行为规范</a>
+						</li>
+						<li> <a target="_self" href="/cn/Terms-and-conditions" class="m-copyright-item pointer"
+								title="">用户服务协议</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
